@@ -12,13 +12,16 @@
   <body style="background-color:#FCFCFC;">
     
     <div class="container-fluid" style="padding:0px;">
-        <nav class="navbar navbar-expand-md navbar-light justify-content-end pr-5 pl-5" style="height: 64px;background-color:#ffffff; box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);">
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-end pr-5 pl-5" style="height: auto; background-color:#ffffff; box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);">
 
           <a class="navbar-brand p-0" href="">
             <img src="./assets/logo.jpg" width="auto" height="49px" alt="">
           </a>
           <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-              aria-expanded="false" aria-label="Toggle navigation"></button>
+              aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
           <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavId">
             <ul class="navbar-nav mr-0 mt-2 mt-lg-0 col-sm-4">
 
@@ -58,10 +61,11 @@
       </div>
       <!-- title -->
 
-      <div class="media offset-sm-1 col-sm-10 p-0">
+      <div class="media offset-md-1 col-sm-10 p-0">
 
-          <img class="mr-4 col-sm-6 align-self-start p-1" src="assets/main-img.png" alt="Generic placeholder image">
-          <div class="media-body col-sm-6 p-1" style="letter-spacing:.05em; font-weight:300;line-height:1.8em; color: #032B43;">
+          <img class="mr-4 col-sm-6 p-1" src="assets/main-img.png" alt="">
+
+          <div class="media-body col-sm-6 p-1 " style="letter-spacing:.05em; font-weight:300;line-height:1.8em; color: #032B43;">
               康盈生技公司逐年不斷地進步、自我成長、永續經營的理念，近幾年有鑑於人們生活水平的提升，對健康的維持要求，除了尋求高品質的產品之外更需要有高品質的服務，我們結合最新穎的保健知識並與國內知名保健學專家共同研究，用心投入新品研發，推出最先進的配方，純天然植物萃取的心血管、泌尿系統、新陳代謝、青春活力的保健養身聖品，都秉持著真誠踏實的理念，展現產品的核心價值『 天然、健康、安全 』，最終目的就是要提供消費者最專業的產品。滿足國人的期待，用最熱忱的心，帶動更高品質的專業產品，迎接營養保健新紀元的來臨。
           </div>
         
@@ -86,6 +90,19 @@
             background-color: #FBCC31;
             color: rgb(155, 155, 155);
           }
+
+          @media (max-width: 576px) { 
+            .media{
+              display: block;
+            }
+            .nav-item{
+              height: 40px;
+            }
+            .navbar-nav{
+              padding-top: 24px;
+            }
+          }
+
         </style>
   </div>
   <!-- container -->
