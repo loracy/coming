@@ -12,10 +12,10 @@
   </head>
   <body>
     
-    <div class="container-fluid" style="padding:0px;">
+    <div class="container-fluid fixed-top" style="padding:0px;">
         <nav class="navbar navbar-expand-sm navbar-light justify-content-end pr-5 pl-5">
 
-          <a class="navbar-brand p-0" href="">
+          <a class="navbar-brand p-0" href="./">
             <img src="./assets/logo.jpg" width="auto" height="49px" alt="">
           </a>
           <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
@@ -27,7 +27,7 @@
             <ul class="navbar-nav mr-0 mt-2 mt-lg-0 col-sm-4">
 
               <li class="nav-item col-sm p-0">
-                <a class="nav-link p-0 text-center" href="#">營養製劑 <span class="sr-only">(current)</span></a>
+                <a class="nav-link p-0 text-center" href="./more.php">營養製劑 <span class="sr-only">(current)</span></a>
               </li>
               
               <!-- <li class="nav-item dropdown col-sm p-0">
@@ -41,11 +41,11 @@
               </li> -->
 
               <li class="nav-item col-sm p-0">
-                <a class="nav-link p-0 text-center" href="#">產品中心</a>
+                <a class="nav-link p-0 text-center" href="product.php">產品中心</a>
               </li>
 
               <li class="nav-item col-sm p-0">
-                <a class="nav-link p-0 text-center" href="#">聯繫我們</a>
+                <a class="nav-link p-0 text-center" href="cantact.php">聯繫我們</a>
               </li>
             </ul>
             
