@@ -9,7 +9,7 @@
                 關於營養製劑
             </span>
         </div>
-        <div class="text-center col-sm-8 offset-sm-2 bg-card-1">
+        <div class="text-center col-sm-8 offset-sm-2 bgWhite cardStyle">
             <span class="text_description">
                 營養製劑(Nutraceutical)是1980年以後才發展出來的新觀念，Nutraceutical= Nutrition(營養基礎)+ Pharmaceutical(類似藥物的開發流程)，具有醫學、生理學等明確成分－原創性研究經過臨床明確的科學數據證明其功效及安全性並具創新研究專利可以有效預防疾病及維持健康的食品。
             </span>
@@ -102,12 +102,6 @@
     </div>
     <!-- aerticle-2 -->
 </div>
-    
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
   </body>
 </html>
