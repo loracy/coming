@@ -24,11 +24,11 @@
   </head>
   <body>
     
-    <div class="container-fluid fixed-top" style="padding:0px;">
-        <nav class="navbar navbar-expand-sm navbar-light justify-content-end pr-5 pl-5">
-
+    <div class="header fixed-top" style="padding:0px;">
+        <nav class="navbar navbar-expand-sm navbar-light justify-content-end">
+        <div class="container">
           <a class="navbar-brand p-0" href="./">
-            <img src="./assets/logo.jpg" width="auto" height="49px" alt="">
+            <img src="./assets/logo.jpg" width="auto" height="49px" alt="logo">
           </a>
           <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
               aria-expanded="false" aria-label="Toggle navigation">
@@ -55,6 +55,7 @@
             </ul>
             
           </div>
+        </div>
         </nav>
     </div>
     <!-- header -->

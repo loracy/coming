@@ -3,10 +3,14 @@
  ---guide---
 header: 65px
 content: pt-5 pb-5
+class naming style: 
+  col -> offset -> m -> p -> component -> customized
 */
 
 body{
-    background-color: #FCFCFC;
+  transition:.25s ease-in-out;
+  background-color: #FCFCFC;
+  /* background-color: #26547C; */
 }
 
 .content{
@@ -15,6 +19,7 @@ body{
 
 .bgWhite{
   background-color: #ffffff;
+  /* background-color: #26547C; */
 }
 
 .cardStyle{
@@ -23,11 +28,17 @@ body{
   /* padding: 2em; */
 }
 
-/* navbar */
+/* -----header style----- */
+/* header style (general) */
+
+.header{
+  width: 100%;
+}
+
 .navbar{
-    height: auto; 
-    background-color:#ffffff; 
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+  height: auto; 
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
 }
 
 .nav-item{
@@ -35,13 +46,37 @@ body{
 }
 
 .nav-link{
-  color:#2AACCC; 
-  font-weight:300;
+  color: #2AACCC; 
+  font-weight: 300;
 }
 
+.navbar-toggler, .navbar-toggler:active{
+  border: none;
+  box-shadow: rgba(0, 0, 0, .0);
+}
 
-/* breadcrumb */
+/* size: mobile */
+@media screen and (max-width: 576px) {
+  .nav-item{
+    height: 40px;
+  }
 
+  .navbar-nav{
+    padding-top: 20px;
+  }
+
+  .navbar-collapse ul li a{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: rgba(0,0,0,.05) 1.3px solid;
+  }
+
+}
+
+/* -----breadcrumb----- */
+/* hidden when less than sm */
 .breadcrumb{
   background-color: rgba(0,0,0,0);
 }
@@ -50,97 +85,144 @@ body{
   color:#2AACCC;
 }
 
-/* text */
-/* slogan */
-.text_slogan{
-    font-size:1.8rem; 
-    color:#032B43; 
-    letter-spacing:.1em;
-}
 
-/* subtitle */
-.text_subtitle{
-  font-size:1.4rem; 
-  letter-spacing:.05em; 
-  font-weight:400;
-  line-height:2em; 
-  color: #032B43;
-}
-/* description */
-.text_description{
-    letter-spacing:.05em; 
-    font-weight:300;
-    line-height:1.8em; 
-    color: #032B43;
-}
-/* number */
-.text_number{
-  font-size: 4em;
-  color: #34ACCA;
-  font-weight: 600;
-  letter-spacing: .1em;
-}
-
-
-/* bg */
-.bg-card-1{
-  padding: 2em;
-}
-.bg-card-3{
-  overflow: scroll;
-  display: inline-flex;
-  width: 100%;
-  height: 360px;
-  border: #f5f5f5 2px solid;
-  flex-direction: column;
-}
-
-/* .divider{
-  width: 2px;
-  background-color: rgba(0,0,0,.1);
-  border-radius: 100em;
-}
-.divider-row{
-  height: 2px;
-  background-color: rgba(0,0,0,.1);
-  border-radius: 100em;
-} */
-
-#cardDec{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width:100%;
-  height: 130px;
-  background: rgba(42, 172, 204, .1);
-  border-radius: 3px;
-  -webkit-clip-path: polygon(0 78%, 100% 59%, 100% 100%, 0% 100%);
-  clip-path: polygon(0 78%, 100% 53%, 100% 100%, 0% 100%);
-}
-
-
-
-/* button*/
+/* -----button----- */
 /* cta */
 .btn-cta{
   background-color: #FBCC31;
   color: #ffffff;
-  letter-spacing: .1em;
-  box-shadow: 1px 3px 3px rgba(0, 0, 0, .08)
+  letter-spacing: .08em;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, .05);
 }
+
 .btn-cta:hover{
-  background-color: #FBCC31;
+  background-color: rgb(240, 194, 45);
+  color: #F7F7F7;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, .05);
+}
+
+.btn-cta:active{
+  background-color: rgb(224, 180, 34);
   color: #F7F7F7;
 }
-.btn-cta:active{
-  background-color: #FBCC31;
-  color: rgb(155, 155, 155);
+
+
+/* -----index page----- */
+/* index page (general) */
+
+.indexSlogan{
+  font-size:1.8rem; 
+  color:#032B43; 
+  letter-spacing:.1em;
+}
+
+.indexIntro{
+  letter-spacing:.05em; 
+  font-weight:300;
+  line-height:1.8em; 
+  color: #032B43;
+}
+
+/* index page (mobile) */
+@media screen and (max-width: 576px) {
+
+  .indexSlogan{
+    font-size:1.3rem; 
+  }
+
+  .media{
+    display: block;
+  }
+
 }
 
 
+/* -----more page----- */
+/* more page (general) */
 
+.moreArticle{
+  display: flex;
+}
 
-/* product page*/
+.moreTitle{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* background: #34ACCA; */
+}
+
+.moreTitle p{
+  /* color: #032B43; */
+  color: rgb(245, 245, 245);
+  font-weight: 300;
+  letter-spacing: .08em;
+  z-index: 100; /* 為了在綠色背景之上 */
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.moreTitle h2{
+  /* color: #032B43; */
+  color: #FFFFFF;
+  font-weight: 400;
+  letter-spacing: .05em;
+  z-index: 100; /* 為了在綠色背景之上 */
+}
+
+.moreTitle div{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 160px;
+  height: 128px;
+  background: #34ACCA;
+  box-shadow: -1px 2px 5px rgba(0, 0, 0, .08);
+  border-radius: 1px;
+  /* background: #FBCC31; */
+}
+
+.moreIntro p{
+  padding: 24px;
+  color: #032B43;
+  letter-spacing: .05em; 
+  font-weight: 300;
+  line-height: 1.8em; 
+}
+
+.moreContentItem{
+  display: flex;
+  flex-direction: column;
+}
+
+.moreListItem{
+
+}
+
+.moreListItemTitle .number{
+  color: #34ACCA;
+  font-size: 4em;
+  letter-spacing: .1em;
+  font-weight: 600;
+}
+
+.moreListItemTitle .title{
+  color: #032B43;
+  font-size: 1.4rem; 
+  letter-spacing: .05em; 
+  font-weight: 400;
+  line-height: 2em; 
+}
+
+.moreListItemContent p{
+  /* color: #032B43; */
+  color: #424242;
+  letter-spacing: .05em; 
+  font-weight: 300;
+  line-height: 1.8em; 
+}
+
+/* -----product page----- */
 /* product page (general) */
 
 .productCard{
@@ -209,15 +291,49 @@ body{
   display: inline-flex;
   align-items: center;
   z-index: 100;
-  /* -moz-border-radius: 100px; */
-  /* -webkit-border-radius: 100px; */
-  /* border-radius: 100px; */
-  /* 等到mobile時要用的 */
 }
 
 .btn-info p{
   margin-bottom: 0px;
   padding-right: 5px;
+}
+
+#cardDec{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width:100%;
+  height: 130px;
+  background: rgba(42, 172, 204, .1);
+  border-radius: 3px;
+  -webkit-clip-path: polygon(0 78%, 100% 59%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 78%, 100% 53%, 100% 100%, 0% 100%);
+}
+
+/* product page (mobile) */
+@media screen and (max-width: 576px) {
+  .productCard{
+    margin-left: 0px;
+  }
+
+  .productImage{
+    height: 160px;
+  }
+
+  .btn-info{
+    /* right: 28px; */
+    /* bottom: 29px; */
+    width: 48px;
+    height: 48px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+  }
+
+  .productList{
+    padding: 30px;
+  }
 }
 
 
@@ -239,7 +355,6 @@ body{
 
 .detailName{
   background: #ffffff;
-  /* border: #34ACCA 2px solid; */
   border-radius: 4px;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
   padding: 16px 24px 16px 24px;
@@ -265,6 +380,19 @@ body{
   position: absolute;
   top: 22px;
   right: 20px;
+  z-index: 100;
+}
+
+.btn-contact-sm{
+  width: 48px;
+  height: 48px;
+  bottom: 15px;
+  right: 15px;
+  border-radius: 100px;  
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, .1);
   z-index: 100;
 }
 
@@ -294,18 +422,81 @@ body{
   font-weight: 300;
 }
 
-/* contact */
+/* ---close button--- */
+.close {
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+
+.close:focus,
+.close:hover {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .75;
+}
+
+button .close {
+  padding: 15px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+/* ---close button--- */
+
+/* detail page (mobile) */
+@media screen and (max-width: 576px) {
+  .col-12{
+    padding: 0;
+  }
+
+  .detailSection{
+    /* height: 400px; */
+    flex-direction: column;
+  }
+
+  .detailName{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-radius: 0px;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, .05);
+    padding: 8px 16px 8px 16px;
+  }
+
+  .detailName h3{
+    font-size: 1.6rem;
+  }
+
+  .detailContent{
+    padding-bottom: 80px;
+  }
+  
+}
+
+
+/* -----contact page----- */
+/* contact page (general) */
+
 .contact-card{
   display: inline-flex;
   flex-direction: column;
   padding-bottom: 40px;
   height:auto;
 }
+
 .btn-info-call{
   top:-23px;
   align-self: center;
   /* z-index: 100; */
 }
+
 #contact-title{
   color: #34ACCA;
   font-weight: 500;
@@ -313,38 +504,10 @@ body{
   padding: 24px;
 
 }
+
 #contact-content{
   padding:16px;
   color: #032B43;
   font-weight: 400;
   font-size: 1.2em;
 } 
-  /* size: mobile */
-  @media (max-width: 540px) { 
-    .media{
-      display: block;
-    }
-    .nav-item{
-      height: 40px;
-    }
-    .navbar-nav{
-      padding-top: 24px;
-    }
-    .img_product{
-      height: 280px;
-    }
-    .productText ul{ 
-      margin-bottom: 40px;
-    }
-    .text_slogan{
-      font-size:1.3rem; 
-    }
-    .navbar-brand{
-      position: absolute;
-      left: 10%;
-    }
-  
-
-
-  
-  }
