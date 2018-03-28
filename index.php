@@ -36,7 +36,7 @@
                 <img src="./icons/arrow-right.svg"/>                     
               </a>
               <a class="btn btnWorry" href="#" role="button" aria-pressed="true">
-                （眼睛的部分）？
+                視力模糊卻早已放棄？
                 <img src="./icons/arrow-right.svg"/>     
               </a>
               <a class="btn btnWorry" href="#" role="button" aria-pressed="true">
@@ -83,7 +83,7 @@
           </div>
         </div>
       </div>
-      <!-- <div class="carousel-item">
+      <div class="carousel-item">
         <div class="container pt-5">
           <div class="row">
             <div class="col-6 col-md-4 col-sm-5 offset-3 offset-md-1 offset-sm-0 d-flex align-items-end indexRecommendImage">              
@@ -91,13 +91,13 @@
             </div>
             <div class="col-10 col-md-6 col-sm-7 offset-1 offset-md-1 offset-sm-0 pt-lg-5 indexRecommendText">              
               <h5>感謝康盈</h5>
-              <h3>(待補充）</h3>
-              <p class="pr-lg-5 mt-lg-4 mt-md-2 mt-1 mr-lg-5 content"></p>
+              <h3>再次看清楚這美好的世界</h3>
+              <p class="pr-lg-5 mt-lg-4 mt-md-2 mt-1 mr-lg-5 content">因為上了年紀，也早就不對自己的視力抱有太大的期望，幸好這次有遇到康盈，沒想到我又可以再次擁有清楚的視線，我也已經跟身邊的老朋友們推薦好久了</p>
               <p class="text-right pr-lg-5 mt-lg-5 mt-md-3 mt-sm-1 mr-lg-5 bywho">－ 台北/趙先生</p>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
     </div>
     <a class="carousel-control-prev d-flex justify-content-center" href="#indexCarousel" role="button" data-slide="prev">
       <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#2DA1C2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left">
@@ -129,7 +129,6 @@
       </div>
     </div>
   </div>
-<<<<<<< HEAD
 </div>
 
 
@@ -175,8 +174,6 @@
 
     });
   </script>
-=======
->>>>>>> b7d4ba0e8f18f82438e3c17fc283669387be5b2b
     
   </body>
 </html>

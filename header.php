@@ -39,17 +39,20 @@
             <ul class="navbar-nav mr-0 mt-2 col-lg-4 col-md-6">
 
               <li class="nav-item col-sm p-0 nav-item-more">
-                <a class="nav-link p-0 text-center" href="./more.php">營養製劑 <span class="sr-only">(current)</span></a>
+                <!-- <a class="nav-link p-0 text-center" href="./more.php">營養製劑 <span class="sr-only">(current)</span></a> -->
+                <a class="nav-link p-0 text-center" href="./">營養製劑</a>
                 <div></div>
               </li>
 
               <li class="nav-item col-sm p-0 nav-item-product">
-                <a class="nav-link p-0 text-center" href="product.php">產品中心</a>
+                <!-- <a class="nav-link p-0 text-center" href="product.php">產品中心</a> -->
+                <a class="nav-link p-0 text-center" href="./">產品中心</a>
                 <div></div>
               </li>
 
               <li class="nav-item col-sm p-0 nav-item-contact">
-                <a class="nav-link p-0 text-center" href="contact.php">聯繫我們</a>
+                <!-- <a class="nav-link p-0 text-center" href="contact.php">聯繫我們</a> -->
+                <a class="nav-link p-0 text-center" href="./">聯繫我們</a>
                 <div></div>
               </li>
             </ul>
