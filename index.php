@@ -5,7 +5,7 @@
 <div id="indexSection1">
   <div class="container content py-5">
       <div class="row">
-        <img id="indexSection1Path" src="./assets/path3.png"/>
+        <img id="indexSection1Path" src="./assets/path1new.png"/>
         <div class="col-12 col-lg-7 col-md-6 p-lg-5 p-md-3 indexLeft">
           <div class="col-12 my-md-5 mt-sm-2 mb-sm-5 ml-md-3 indexSlogan">
             <h1>提供您<br>最優質的專業保健品</h1>
