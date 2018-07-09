@@ -46,7 +46,7 @@
 
               <li class="nav-item col-sm p-0 nav-item-product">
                 <!-- <a class="nav-link p-0 text-center" href="product.php">產品中心</a> -->
-                <a class="nav-link p-0 text-center" href="./">產品中心</a>
+                <a class="nav-link p-0 text-center" href="./product.php">產品中心</a>
                 <div></div>
               </li>
 
