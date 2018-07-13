@@ -92,7 +92,8 @@
             <div class="col-10 col-md-6 col-sm-7 offset-1 offset-md-1 offset-sm-0 pt-lg-5 indexRecommendText">              
               <h5>感謝康盈</h5>
               <h3>再次看清楚這美好的世界</h3>
-              <p class="pr-lg-5 mt-lg-4 mt-md-2 mt-1 mr-lg-5 content">因為上了年紀，也早就不對自己的視力抱有太大的期望，幸好這次有遇到康盈，沒想到我又可以再次擁有清楚的視線，我也已經跟身邊的老朋友們推薦好久了</p>
+              <!-- <p class="pr-lg-5 mt-lg-4 mt-md-2 mt-1 mr-lg-5 content">因為上了年紀，也早就不對自己的視力抱有太大的期望，幸好這次有遇到康盈，沒想到我又可以再次擁有清楚的視線，我也已經跟身邊的老朋友們推薦好久了</p> -->
+              <p class="pr-lg-5 mt-lg-4 mt-md-2 mt-1 mr-lg-5 content">我一直擔心全家視力的問題，孩子喜歡玩手機，老公工作必需長時間盯著電腦，還好我研究了很久，終於找到符合我的理想的視力保健品，有臨床有專利的法國山桑子，而且口味酸酸甜甜的，全家人都愛吃，讓我從此不用再擔心全家的視力問題了！</p>
               <p class="text-right pr-lg-5 mt-lg-5 mt-md-3 mt-sm-1 mr-lg-5 bywho">－ 台北/趙先生</p>
             </div>
           </div>
