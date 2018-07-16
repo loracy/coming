@@ -2,11 +2,14 @@
 <html lang="en">
   <head>
     <title>康盈生技</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">	
+    <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
+	  <meta content="康盈生技 康盈 coming 高一等 晶盈明亮口含錠 滴丸 強康 松樹皮 天然維生素D 蘑菇萃取物" name="keywords">
+	  <meta content="康盈生技 康盈 coming 高一等 晶盈明亮口含錠 滴丸 強康 松樹皮 天然維生素D 蘑菇萃取物" name="description">
+    <link rel="shortcut icon" href="./assets/favicon.png">
+	  <link rel="Bookmark" href="./assets/favicon.png">
     <!-- Required meta tags -->
-    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta content="康盈 康盈生技 永保康 舌下錠 可偌美 窈窕灑粉" name="keywords">
-	  <meta content="康盈 康盈生技 永保康 舌下錠 可偌美 窈窕灑粉" name="description">
 
     <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
