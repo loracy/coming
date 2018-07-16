@@ -132,17 +132,6 @@
   </div>
 </div>
 
-
-<!-- <div class="footer">
-  <div class="container py-3">
-    <div class="row">
-      <div class="col-8 offset-2 my-3 index">
-        <p>聯絡電話：</p>
-      </div>
-    </div>    
-  </div>
-</div> -->
-
   <script>  
     $(document).ready(function(){
 
@@ -175,6 +164,7 @@
 
     });
   </script>
-    
-  </body>
-</html>
+
+<?php 
+	include ('footer.php');
+?>
