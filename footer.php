@@ -8,10 +8,10 @@ request.responseType = 'json';
 request.send();
 request.onload = function() {
     var jsonObj = request.response;
-    showData(jsonObj);
+    showFooterData(jsonObj);
 }
 
-function showData(jsonObj) {
+function showFooterData(jsonObj) {
     // data is a array-object that includes all product page information
     data = jsonObj['products'];
     // render the product's name
