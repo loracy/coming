@@ -1,7 +1,29 @@
 <?php 
 	include ('header.php');
-	include ('function.php');
 ?>
+
+<script type="text/javascript">  
+// 取得json資料
+var requestURL = 'https://loracy.github.io/coming/assets/details.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function() {
+    var jsonObj = request.response;
+    showProductData(jsonObj);
+}
+
+function showProductData(jsonObj) {
+    // data is a array-object that includes all product page information
+    data = jsonObj['products'];
+    // render the product's name
+    for( i=1; i <= data.length ; i++ ){
+        document.getElementsByClassName('footerProductContentRowLink-' + i)[0].innerText = data[i-1]['name'];
+    }
+}
+
+</script>
 
 <div id="indexSection1">
   <div class="container content py-5">
