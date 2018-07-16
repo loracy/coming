@@ -28,8 +28,8 @@ function showData(jsonObj) {
                 <img src="./assets/logo.jpg" width="auto" height="49px" alt="logo">
             </div>
             <div class="col-12 col-sm-3 mt-4 mt-sm-0 footerProduct">
-                <h5 class="align-items-center">產品中心</h5>
-                <div class="d-flex flex-column align-items-center align-items-start footerProductContent">
+                <h5 class="align-items-center align-items-sm-start">產品中心</h5>
+                <div class="d-flex flex-column align-items-center align-items-sm-start footerProductContent">
                     <?php for ( $i=1 ; $i<=2 ; $i++ ){ ?>
                     <div class="d-flex flex-row footerProductContentRow">
                         <?php for ( $j=1 ; $j<=3 ; $j++ ){ ?>
@@ -40,8 +40,8 @@ function showData(jsonObj) {
                 </div>
             </div>
             <div class="col-12 col-sm-4 mt-4 mt-sm-0 footerContact">
-                <h5 class="align-items-center">聯絡資訊</h5>
-                <div class="d-flex flex-column align-items-center footerContactContent">
+                <h5 class="align-items-center align-items-sm-start">聯絡資訊</h5>
+                <div class="d-flex flex-column align-items-center align-items-sm-start footerContactContent">
                     <p>聯絡地址：台中市西區華美西街一段82號</p>
                     <p>市話：04-23101377 /<br class="d-block d-sm-none">
                     免費專線：0800-089595 / <br class="d-block d-sm-none">
