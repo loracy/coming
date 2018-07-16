@@ -1,10 +1,7 @@
 <?php 
 	include ('header.php');
-?>
-<?php 
 	include ('function.php');
 ?>
-
 <?php 
     $productItem = 'product-1';
     $name = array('高一等', '晶盈明亮口含錠', '滴丸', '強康', '松樹皮3', '蘑菇D2');
