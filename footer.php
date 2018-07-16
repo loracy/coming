@@ -1,5 +1,5 @@
 
-<script type="text/javascript">  
+<!-- <script type="text/javascript">  
 // 取得json資料
 var requestURL = 'https://loracy.github.io/coming/assets/details.json';
 var request = new XMLHttpRequest();
@@ -20,7 +20,7 @@ function showFooterData(jsonObj) {
     }
 }
 
-</script>
+</script> -->
 <div class="footer" style="padding:0px;">
     <div class="container-fluid pt-5">
         <div class="row pb-5">
