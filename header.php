@@ -4,8 +4,9 @@
     <title>康盈生技</title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">	
     <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
-	  <meta content="康盈生技 康盈 coming 高一等 晶盈明亮口含錠 滴丸 強康 松樹皮 天然維生素D 蘑菇萃取物" name="keywords">
-	  <meta content="康盈生技 康盈 coming 高一等 晶盈明亮口含錠 滴丸 強康 松樹皮 天然維生素D 蘑菇萃取物" name="description">
+	  <meta content="康盈生技 康盈生技是什麼 康盈 coming 高一等 晶盈明亮口含錠 滴丸 強康 松樹皮 天然維生素D 蘑菇萃取物" name="keywords">
+	  <!-- <meta content="康盈生技 康盈 coming 高一等 晶盈明亮口含錠 滴丸 強康 松樹皮 天然維生素D 蘑菇萃取物" name="description"> -->
+	  <meta content="康盈生技提供您最優質的專業保健品秉持著真誠踏實的理念，滿足您的健康需求，是我們的責任" name="description">
     <link rel="shortcut icon" href="./assets/favicon.png">
 	  <link rel="Bookmark" href="./assets/favicon.png">
     <!-- Required meta tags -->
@@ -26,7 +27,7 @@
     
   </head>
   <body>
-    <h1 class="d-none">康盈生技</h1>
+    <h1 class="d-none">康盈生技是什麼?</h1>
     <h2 class="d-none">康盈</h2>
     <div class="header fixed-top" style="padding:0px;">
         <nav class="navbar navbar-expand-sm navbar-light justify-content-end">
