@@ -26,7 +26,8 @@
     
   </head>
   <body>
-    
+    <h1 class="d-none">康盈生技</h1>
+    <h2 class="d-none">康盈</h2>
     <div class="header fixed-top" style="padding:0px;">
         <nav class="navbar navbar-expand-sm navbar-light justify-content-end">
         <div class="container">
