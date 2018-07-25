@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>康盈生技 | 最優質的專業保健品</title>
+    <title>康盈生技 | 最優質的專業保健品-高一等 </title>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">	
     <meta http-equiv="Content-Type" content="text/html;" charset="utf-8">
 	  <meta content="康盈生技提供您最優質的專業保健品秉持著真誠踏實的理念，滿足您的健康需求，是我們的責任" name="description">
