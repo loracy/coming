@@ -21,7 +21,7 @@
                 <div class="d-flex flex-column align-items-center align-items-sm-start footerContactContent">
                     <p>聯絡地址：台中市西區華美西街一段82號</p>
                     <p>市話：04-23101377 /<br class="d-block d-sm-none">
-                    免費專線：0800-089595 / <br class="d-block d-sm-none">
+                    免費電話：0800-089595 / <br class="d-block d-sm-none">
                     傳真：04-23101335</p>
                     <p>電子郵件：saray560505@gmail.com</p>
                 </div>
