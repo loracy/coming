@@ -18,6 +18,7 @@ function showProductData(jsonObj) {
     for( i=1; i <= data.length ; i++ ){
         document.getElementsByClassName('productName-' + i)[0].innerText = data[i-1]['name'];
         document.getElementsByClassName('productName-' + i)[1].innerText = data[i-1]['name'];
+        document.getElementsById('ProductPrice-' + i)[0].innerText = data[i-1]['price'];
         document.getElementsByClassName('footerProductContentRowLink-' + i)[0].innerText = data[i-1]['name'];
 
     }

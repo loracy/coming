@@ -39,10 +39,13 @@
                         <?php } ?>
                     </ul>
                 </div>
-                <a class="btn btn-info" href="<?php echo "./detail.php?product=".$i ?>" role="button" aria-pressed="true">
+                <!-- <a class="btn btn-info" href="<?php echo "./detail.php?product=".$i ?>" role="button" aria-pressed="true">
                     <p class="d-none d-sm-block">瞭解更多</p>
                     <img src="./icons/arrow-right.svg"/>
-                </a>
+                </a> -->
+                <span class="productPrice">
+                    <p id="ProductPrice-<?php echo $i ?>"></p>
+                </span>
             </div>
         </div>
         <?php } ?>
