@@ -1,4 +1,4 @@
-<div class="footer" style="padding:0px;">
+<div id="Footer" class="footer" style="padding:0px;">
     <div class="container-fluid pt-5">
         <div class="row pb-5">
             <div class="col-12 col-sm-4 d-flex align-items-center justify-content-center footerLogo">

@@ -44,6 +44,7 @@
                     <img src="./icons/arrow-right.svg"/>
                 </a> -->
                 <span class="productPrice">
+                    <span>建議售價 $</span>
                     <p id="ProductPrice-<?php echo $i ?>"></p>
                 </span>
             </div>
