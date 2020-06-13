@@ -10,7 +10,8 @@
                     <?php for ( $i=1 ; $i<=2 ; $i++ ){ ?>
                     <div class="d-flex flex-row footerProductContentRow">
                         <?php for ( $j=1 ; $j<=3 ; $j++ ){ ?>
-                            <a href="<?php echo "./detail.php?product=".($j+($i-1)*3) ?>" class="footerProductContentRowLink-<?php echo $j+($i-1)*3 ?>"></a>
+                            <!-- <a href="<?php echo "./detail.php?product=".($j+($i-1)*3) ?>" class="footerProductContentRowLink-<?php echo $j+($i-1)*3 ?>"></a> -->
+                            <a href="./product.php" class="footerProductContentRowLink-<?php echo $j+($i-1)*3 ?>"></a>
                         <?php } ?>
                     </div>
                     <?php } ?>
