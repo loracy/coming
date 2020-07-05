@@ -1,16 +1,29 @@
-// var selector = '.navbar-nav li a';
+function showActiveNavigation() {
+}
 
-// $('.nav-item').click(function(e){
-//     // $(selector).removeClass('active');
-//     // $(this).addClass('active');
-//     $('.nav-item').css('background-color; #000000');
-//     console.log('fuck me');
+function showFooterProduct(jsonObj) {
+    var productData = jsonObj['products'];
+    var productDataLength = Object.keys(productData).length;
 
-// });
+    for( i = 1 ; i <= productDataLength ; i++ ){
+        var footerProduct = '<div class="footerProductContentItem">' +
+                                '<a href="./detail.php?product=' + i +'">' + productData[i-1].name + '</a>' +
+                            '</div>';
+        $('.footerProductContent').append(footerProduct);
+    }
+}
 
+$(document).ready(function(){
+    var requestURL = 'https://loracy.github.io/coming/assets/details.json';
+    var request = new XMLHttpRequest();
+    request.open('GET', requestURL);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        var jsonObj = request.response;
+        showFooterProduct(jsonObj);
+    }
 
-// $( "div" ).click(function() {
-//     var color = $( this ).css( "background-color" );
-//     $( "#result" ).html( "That div is <span style='color:" +
-//       color + ";'>" + color + "</span>." );
-//   });
+    showActiveNavigation();
+    
+});
