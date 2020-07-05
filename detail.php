@@ -61,7 +61,7 @@
         $('.detailInfoName > h3').text(productData.name);
 
         for( i = 1 ; i <= productFeatureLength ; i++ ){
-            var feature = productFeature[i];
+            var feature = productFeature[i-1];
             var basicComponent = '<li class="detailInfoFeaturesListItem">' +
                                     '<img src="./icons/check.svg">' +
                                     '<p id="productFeature-' + i + '">' + feature + '</p>' +
