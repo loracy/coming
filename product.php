@@ -2,7 +2,7 @@
 	include ('header.php');
 ?>
 <?php 
-    $name = array('高一等', '晶盈明亮口含錠', '滴丸', '強康', '松樹皮3', '蘑菇D2');
+    $name = array('晶盈明亮口含錠', '滴丸', '松樹皮3', '蘑菇D2');
     $productLength = count($name);
 ?>
 
